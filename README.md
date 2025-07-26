@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# 📅 Deadline Manager Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and minimal task management app built with **React.js**. This project helps users keep track of deadlines and tasks with features like adding, deleting, filtering, and switching between dark/light themes.
 
-## Available Scripts
+## 🔥 Features
 
-In the project directory, you can run:
+- ✅ Add new tasks with deadlines  
+- 🗑️ Delete tasks  
+- 🌓 Toggle between light and dark mode  
+- 🔍 Search/filter tasks  
+- 📱 Responsive design
 
-### `npm start`
+## 🖥️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js  
+- JavaScript (ES6+)  
+- CSS  
+- React Icons  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Preview
 
-### `npm test`
+> Light Mode | Dark Mode  
+> ----------- | -----------  
+> ![light mode screenshot](<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/6b32c609-4255-4a05-884a-597efa715857" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+) | ![dark mode screenshot](<img width="1920" height="1080" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/00227c44-dfd8-4712-8fef-eae00bc5a620" />)
 
-### `npm run build`
+_Add screenshots here once deployed or locally hosted._
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repo and run it locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/YOUR_USERNAME/deadline-manager.git
+cd deadline-manager
+npm install
+npm start
 
-### `npm run eject`
+📁 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+deadline-manager/
+├── public/
+├── src/
+│   ├── assets/             # Images, icons, fonts (optional for now)
+│   ├── components/         # Reusable UI components
+│   │   ├── Header.jsx
+│   │   ├── AddDeadlineForm.jsx
+│   │   ├── DeadlineList.jsx
+│   │   ├── DeadlineFilter.jsx
+│   │   └── DeadlineItem.jsx
+│   ├── styles/             # CSS files (can switch to CSS Modules or Tailwind later)
+│   │   ├── App.css
+│   │   ├── Header.css
+│   │   ├── AddDeadlineForm.css
+│   │   └── DeadlineList.css
+│   │   └──DeadLineFilter.css
+│   │   └── DeadlineItem.css
+│   ├── utils/              # Helper functions (e.g., date formatters)
+│   ├── hooks/              # Custom React hooks (optional)
+│   ├── context/            # Context API logic (if we use it later)
+│   ├── App.jsx
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧠 Learning Goals
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    Practice building single-page apps with React
 
-## Learn More
+    Use component-based architecture
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Handle state management using hooks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Implement light/dark theme toggling
 
-### Code Splitting
+    Improve Git/GitHub project workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+🤝 Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is a personal learning project, but feel free to fork and contribute.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📌 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the MIT License.
