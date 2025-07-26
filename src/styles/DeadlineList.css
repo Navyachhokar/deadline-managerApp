@@ -1,0 +1,25 @@
+/* src/styles/DeadlineList.css */
+/* .deadline-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+
+} */
+.list-section {
+  flex: 1.5;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.deadline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
