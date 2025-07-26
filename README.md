@@ -20,11 +20,11 @@ A sleek and minimal task management app built with **React.js**. This project he
 ## 📸 Preview
 
 > Light Mode
-> (<img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/6b32c609-4255-4a05-884a-597efa715857" />)
+> <img width="1920" height="1080" alt="Screenshot (84)" src="https://github.com/user-attachments/assets/6b32c609-4255-4a05-884a-597efa715857" />
 
 
 > Dark Mode
-> (<img width="1920" height="1080" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/00227c44-dfd8-4712-8fef-eae00bc5a620" />)
+> <img width="1920" height="1080" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/00227c44-dfd8-4712-8fef-eae00bc5a620" />
 
 
 
